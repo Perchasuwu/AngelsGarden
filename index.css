@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.col{
+    margin-top: 50px;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.p h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.tittle  h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.AllProdcuts{
+    padding-bottom: 200px;
+}
+
+.AllProdcuts h2{
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+
+.products_container{
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.products_container .productCard{
+    width: 330px;
+    height: 550px;
+    -webkit-box-shadow: 10px 6px 81px -30px rgba(0,0,0,0.82);
+    -moz-box-shadow: 10px 6px 81px -30px rgba(0,0,0,0.82);
+    box-shadow: 10px 6px 81px -30px rgba(0,0,0,0.82);
+
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.products_container .productCard:hover{
+    transform: scale(1,01);
+}
+
+.productCard .productImg{
+    height: 360px;
+}
+
+.productCard .productImg img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    object-fit: contain;
+}
+
+.productCard .productInfo{
+    height: 140px;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    display: grid;
+    place-items: center;
+}
+
+.productInfo .price{
+    font-size: 1.2em;
+}
+
+
+.productInfo .addToKartBtn:hover{
+    color: blue;
+}
+
+.logo{
+    margin-bottom: 16px;
+    width: 100px;
+    float: left;
+}
+
+.logo1{
+    margin-top: 30px;
+}
+
+.profelinda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.encargada {
+    width: 220px; 
+    height: auto;
+    border-radius: 50%; 
+    margin-right: 20px; 
+}
+
+.mensaje {
+    font-size: 24px;
+    color: #2d5d34; 
+}
+
+.tittle{
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 17px;
+}
+
+
